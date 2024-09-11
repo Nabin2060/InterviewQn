@@ -1,4 +1,4 @@
-// utils/auth.js
+
 import cookies from 'js-cookie';
 
 const hardcodedUser = {
@@ -8,7 +8,7 @@ const hardcodedUser = {
 
 export const login = async (username, password) => {
   if (username === hardcodedUser.username && password === hardcodedUser.password) {
-    cookies.set('token', 'fake-jwt-token', { expires: 1 }); // Expires in 1 day
+    cookies.set('token', 'fake-jwt-token', { expires: 1 });
     return true;
   }
   return false;

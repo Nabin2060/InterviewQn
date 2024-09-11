@@ -9,6 +9,8 @@ function App() {
     <div className="App">
       <h1>Search Filter Component</h1>
       <SearchFilter />
+      <br /> <br /><br /><br />
+      <h1>User List</h1>
       <UserList />
 
 
